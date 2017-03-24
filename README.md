@@ -9,17 +9,23 @@ onbon bx06 api
 
 - [安卓設定](https://github.com/api2doc/onbon.bx06.mobiledemo) (僅 onbon bx06 api 0.5.0 或以上支援)
 
+## 資料夾說明
+
+* __jar__ - Java API 庫。
+
+* __aar__ - Android 庫。
+
 ## 執行環境
 
 * Java 6 或以上
 
-* Andorid 5.0 或以上
+* Andorid 5.0 或以上 (僅 onbon bx06 api 0.5.0 或以上支援)
 
-## 範例
+## Java 6 範例
 
 ### Client 模式
 
-```
+``` Java
 // 初始化系統環境 (同一程序 內只需初始化一次)
 Bx6GEnv.initial();
 

@@ -4,12 +4,12 @@
 
 若網路處於較慢的環境，可調控制卡整逾檢查時間。API 預設值為 7000 毫秒。
 
-```
+``` Java
 Bx6GEnv.initial();
 Bx6GController.TIMEOUT = 60000;  // 單位為毫秒
 ```
 或
-```
+``` Java
 Bx6GEnv.initial("applog4j.properties", 6000);
 ```
 
@@ -19,7 +19,7 @@ Bx6GEnv.initial("applog4j.properties", 6000);
 啟動初始化時，可同時決定是否載入正確設定的 log4j 配置檔案。檔案名稱可以是絕對路徑或相對路徑。當為相對路徑時，API 會從應用程式資料下搜尋該配置檔案。
 
 #### API 初始化
-```
+``` Java
 // 不載入 log4j 配置檔案
 Bx6GEnv.initial();
 
@@ -31,7 +31,7 @@ Bx6GEnv.initial("c:/somewhere/appLog4j.properties");
 ```
 
 #### log4j 配置檔案：appLog4j.properties
-```
+``` yml
 log4j.rootLogger=ALL, system, error
 
 #System log file
@@ -53,7 +53,7 @@ log4j.appender.error.layout.ConversionPattern=%-5p %d{HH:mm:ss.SSS} %-50c %-20M 
 
 在上傳節目前，確認加入節目中的區域是否超出屏幕有效範圍，避免黑屏的現象發生。
 
-```
+``` Java
 // 建立節目
 ProgramBxFile program = new ProgramBxFile("P000", screen.getProfile());
 
