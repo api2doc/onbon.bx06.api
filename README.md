@@ -2,24 +2,31 @@ onbon bx06 api
 =====================
 
 本函式庫主要針對 [上海仰邦](http://www.onbonbx.com/) 六代全彩顯示屏控制器進行控制與節目的下載，用戶可透過此 API 進行二次開發與系統整合。
-
 - [Java 文檔](http://api2doc.github.io/onbon.bx06.api)
 
 - [小技巧](TIPS.md)
 
 - [安卓設定](https://github.com/api2doc/onbon.bx06.mobiledemo) (僅 onbon bx06 api 0.5.0 或以上支援)
 
-## 資料夾說明
-
-* __jar__ - Java API 庫。
-
-* __aar__ - Android 庫。
-
 ## 執行環境
+- Java 6 或以上
 
-* Java 6 或以上
+- Andorid 5.0 或以上 (僅 onbon bx06 api 0.5.0 或以上支援)
 
-* Andorid 5.0 或以上 (僅 onbon bx06 api 0.5.0 或以上支援)
+## Desktop 與 Android 共用的 JAR 檔
+- bx06.message-0.5.0-SNAPSHOT.jar
+
+- bx06-0.5.0-SNAPSHOT.jar
+
+- log4j-1.2.14.jar
+
+- simple-xml-2.7.1.jar
+
+- uia.comm-0.2.1.jar
+
+- uia.message-0.5.1.jar
+
+- uia.utils-0.1.2.jar
 
 ## Java 6 範例
 
