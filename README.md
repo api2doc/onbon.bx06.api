@@ -28,7 +28,7 @@ onbon bx06 api
 
 - uia.message-__x.x.x__.jar (__x.x.x__ 由各版本決定)
 
-- uia.utils-0.1.2.jar
+- uia.utils-__x.x.x__.jar (__x.x.x__ 由各版本決定)
 
 ## Java 6 範例
 
